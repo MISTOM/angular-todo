@@ -1,1 +1,5 @@
-<p>todos works!</p>
+<div class="todos">
+    <div *ngFor="let todo of todos; let i = index;" class="todo {{ (todo.completed ? 'done' : '') }}">
+		<div class="id">{{ i }}</div>
+		<div class="description" (click)="toggleDone(i)">{{ todo.description }}</div>
+</div>
