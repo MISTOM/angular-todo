@@ -5,6 +5,14 @@
 	border-bottom: 1px solid #DDD;
 }
 
+.todo-input {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	appearance: none;
+	border: none;
+}
+
 .todo:nth-child(even) {
 	background-color: #EEE;
 }
