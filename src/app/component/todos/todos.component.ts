@@ -35,4 +35,13 @@ export class TodosComponent implements OnInit {
     })
   }
 
+  addTodo () {
+    this.todos.push({
+      description: this.inputTodo,
+      completed: false
+    });
+
+    this.inputTodo = "";
+  }
+
 }
