@@ -11,6 +11,10 @@
 	padding: 10px 15px;
 	appearance: none;
 	border: none;
+	background-color: #F3F3F3;
+	margin-top: 15px;
+	font-size: 20px;
+	outline: none;
 }
 
 .todo:nth-child(even) {
@@ -31,4 +35,21 @@
 
 .todo.done .description {
 	text-decoration: line-through;
+}
+
+.todo-submit {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+    background-color: #FE4880;
+	color: #FFF;
+	margin: 15px auto;
+
+	padding: 10px 15px;
+	font-size: 18px;
+	font-weight: 700;
 }
