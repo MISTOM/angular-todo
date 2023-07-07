@@ -43,9 +43,10 @@
 	max-width: 200px;
 	appearance: none;
 	border: none;
+    border-radius: 20%;
 	outline: none;
 	background: none;
-    background-color: #FE4880;
+    background-color: #4747b1;
 	color: #FFF;
 	margin: 15px auto;
 
